@@ -1,0 +1,57 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+dist
+build
+tmp
+/out-tsc
+storybook-static
+.pnpm-store
+.nx
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+/.vscode
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# testing
+coverage
+apps/unified-app/cypress/videos
+apps/unified-app/cypress/screenshots
+apps/unified-app/cypress/reports
+apps/unified-app/cypress/downloads
+/storybook-static
+build-storybook.log
+junit.xml
+
+# logs & misc
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+**/**/.yalc
+**/**/yalc.lock
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# env
+.env

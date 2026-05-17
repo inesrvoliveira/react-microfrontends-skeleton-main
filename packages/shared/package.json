@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "shared",
+  "version": "0.0.0",
+  "description": "",
+  "sideEffects": true,
+  "main": "./src/index.tsx",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "test": "vitest --config='../../vitest.config.js' --watch=false",
+    "test:watch": "vitest --config='../../vitest.config.js'",
+    "lint": "eslint ./src --ext .ts,.tsx",
+    "lint:fix": "eslint ./src --ext .ts,.tsx --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
