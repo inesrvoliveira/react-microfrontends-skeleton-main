@@ -3,3 +3,7 @@ packages:
   - 'apps/*'
   # all packages in subdirs of packages/ and components/
   - 'packages/*'
+allowBuilds:
+  esbuild: true
+  msw: true
+  nx: true
